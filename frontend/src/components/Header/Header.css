@@ -1,0 +1,27 @@
+
+.header {
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header ul {
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    /* this sets the header items to the right */
+    float: right;
+    
+  }
+  
+  .header li {
+    list-style-type: none;
+    margin: 0 10px;
+  }
+  
+  .header a {
+    text-decoration: none;
+  }
