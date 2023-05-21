@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => (
   <footer>
     <div className="container">
-      <p>Copyright &copy; 2023 World Travels</p>
+      <p>Copyright<span> &copy;2023</span> World Travels</p>
       
     </div>
   </footer>
