@@ -3,9 +3,7 @@ import './Header.css';
 
 const Header = () => (
     
-  <nav className='header'>
-    {/* <h2>Hi, Welcome to World Travels.</h2>
-     */}
+ <header>
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/tours">Tours</a></li>
@@ -13,7 +11,7 @@ const Header = () => (
       <li><a href="./contact">Contact</a></li>
       <li><a href="/login">Login</a></li>
     </ul>
-  </nav>
+  </header>
 );
 
 export default Header;
