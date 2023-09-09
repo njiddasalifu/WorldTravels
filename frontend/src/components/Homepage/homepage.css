@@ -1,0 +1,89 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Homepage layout */
+  .homepage {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .hero-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .feature {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+  .feature-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-description {
+    color: #777;
+  }
+  
+  .footer {
+    text-align: center;
+    color: #777;
+    margin-top: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+  }
