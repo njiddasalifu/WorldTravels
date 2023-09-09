@@ -37,7 +37,7 @@ function Homepage() {
         </div>
       </section>
       <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} WorldTravel-by-<i>SALIF</i>. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} WorldTravel by <i><b>SALIF</b></i>. All rights reserved.</p>
       </footer>
     </div>
   );
