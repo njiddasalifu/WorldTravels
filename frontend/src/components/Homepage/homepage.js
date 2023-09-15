@@ -6,7 +6,7 @@ function Homepage() {
   return (
     <div className="homepage">
       <header className="header">
-        <h1 className="logo">WorldTravel</h1>
+        <h1 className="logo"><span><i>World</i></span>Travels</h1>
         <nav className="navbar">
           <ul className="nav-links">
             <li><a href="/">Home</a></li>
@@ -18,9 +18,9 @@ function Homepage() {
       </header>
       <section className="hero">
         <div className="hero-content">
-          <h2 className="hero-title">Explore the World</h2>
+          <h2 className="hero-title">Travel the world and see the beauty of Nature.</h2>
           <p className="hero-subtitle">Discover new destinations and plan your next adventure.</p>
-          <a href="/destinations" className="hero-btn">Get Started</a>
+          <a href="/destinations" className="hero-btn">Let's go</a>
         </div>
       </section>
       <section className="features">
@@ -38,7 +38,7 @@ function Homepage() {
         </div>
       </section>
       <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} WorldTravel by <i><b>SALIF</b></i>. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} WorldTravel by <i><b><span>SALIF</span></b></i>. All rights reserved.</p>
       </footer>
     </div>
   );
