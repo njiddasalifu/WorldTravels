@@ -5,7 +5,6 @@
     function Homepage() {
       return (
         <Layout>
-          
           <section className="hero">
             <div className="hero-content">
               <h2 className="hero-title">Travel the world and see the beauty of Nature.</h2>
