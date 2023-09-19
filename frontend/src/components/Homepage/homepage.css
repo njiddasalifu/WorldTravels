@@ -21,10 +21,11 @@ body, h1, h2, h3, p, ul, li, a {
   .hero-title {
     font-size: 36px;
     margin-bottom: 10px;
+    color: white;
   }
   
   .hero-subtitle {
-    color: #777;
+    color: white;
     margin-bottom: 20px;
   }
   
@@ -57,4 +58,22 @@ body, h1, h2, h3, p, ul, li, a {
   .feature-description {
     color: #777;
   }
+  .feature img {
+    max-width: 100%;
+    height: auto;
+    max-height: 1000px; 
+  }
+
+  /* background effects */
+  @keyframes changeBackground {
+    0% { background-image: url('../../assets/images/gallery-02.jpg'); }
+    33% { background-image: url('../../assets/images/gallery-03.jpg'); }
+    66% { background-image: url('../../assets/images/gallery-04.jpg'); }
+    100% { background-image: url('../../assets/images/gallery-02.jpg'); }
+  }
   
+  .hero {
+    animation: changeBackground 12s infinite;
+    background-size: cover;
+    background-position: center;
+  }
