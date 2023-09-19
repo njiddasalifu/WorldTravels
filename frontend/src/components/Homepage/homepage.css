@@ -11,37 +11,7 @@ body, h1, h2, h3, p, ul, li, a {
     margin: 0 auto;
     padding: 20px;
   }
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-color: #2081d5eb;
-    padding: 10px;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  .logo span {
-    color: #6df061;
-  }
-  
-  .nav-links li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #333;
-  }
-  
+
   .hero {
     text-align: center;
     margin-bottom: 40px;
@@ -88,16 +58,3 @@ body, h1, h2, h3, p, ul, li, a {
     color: #777;
   }
   
-  .footer {
-    text-align: center;
-    background-color: #202cd5eb;
-    margin-top: 60px;
-    position: fixed;
-    padding: 10px;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-  }
-  .footer span {
-    color: #6df061;
-  }
