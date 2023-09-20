@@ -2,7 +2,7 @@
  import React from 'react';
  import './homepage.css';
  import Layout from '../Layout/layout';
- import me1 from '../../assets/images/gallery-02.jpg';
+ import me1 from '../../assets/images/tour.jpg';
  import me2 from '../../assets/images/gallery-03.jpg';
  import me3 from '../../assets/images/gallery-04.jpg';
 
@@ -21,6 +21,9 @@
               <h3 className="feature-title">Popular Destinations</h3>
               <p className="feature-description">Browse through our collection of popular travel destinations.</p>
               <img src={me1} alt="Nature" />
+              <p>
+                <i>This is...</i>
+              </p>
             </div>
             <div className="feature">
               <h3 className="feature-title">Travel Guides</h3>
