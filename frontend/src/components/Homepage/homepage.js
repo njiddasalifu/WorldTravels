@@ -22,7 +22,7 @@
               <p className="feature-description">Browse through our collection of popular travel destinations.</p>
               <img src={me1} alt="Nature" />
               <p>
-                <i>This is...</i>
+                <i><b>Miami</b></i>
               </p>
             </div>
             <div className="feature">
