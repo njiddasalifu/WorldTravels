@@ -1,8 +1,10 @@
 import React from 'react';
-import './AboutPage.css'; // Make sure to import the CSS file
+import './about.css';
+import Layout from '../Layout/layout';
 
 const AboutPage = () => {
   return (
+    <Layout >
     <div className="about-page">
       <h1 className="logo">WorldTravel</h1>
       <p>Welcome to Your Travel Companion, your ultimate guide to unforgettable adventures around the world. We are passionate about travel and dedicated to helping you create lifelong memories.</p>
@@ -15,6 +17,7 @@ const AboutPage = () => {
       
       <p>Join us on this exciting journey and let Your Travel Companion be your trusted companion, guiding you every step of the way. Start exploring our website today and unlock a world of adventure!</p>
     </div>
+    </Layout>
   );
 };
 

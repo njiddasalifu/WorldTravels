@@ -1,4 +1,4 @@
-/* header section
+header section
 .header {
     display: flex;
     justify-content: space-between;
@@ -43,4 +43,4 @@
   }
   .footer span {
     color: #6df061;
-  } */
+  }
