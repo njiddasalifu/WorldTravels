@@ -8,7 +8,6 @@ function App() {
   return (
     <Router>
       <Layout>
-        Hello from here.
         <Routes>
           <Route path="/" element={<Homepage />} />
            {/* <Route path="/destinations" element={<DestinationsPage />} /> */}
