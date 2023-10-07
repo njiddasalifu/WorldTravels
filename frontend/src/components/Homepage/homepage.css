@@ -4,6 +4,9 @@ body, h1, h2, h3, p, ul, li, a {
     padding: 0;
     font-family: Arial, sans-serif;
   }
+  .home {
+    background-color: #F5F5F5;
+  }
   
   /* Homepage layout */
   .homepage {

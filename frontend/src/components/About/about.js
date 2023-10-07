@@ -5,9 +5,9 @@ import Layout from '../Layout/layout';
 const AboutPage = () => {
   return (
     <Layout >
-    <div className="about-page">
+    <div className="about">
       <h1 className="logo">WorldTravel</h1>
-      <p>Welcome to Your Travel Companion, your ultimate guide to unforgettable adventures around the world. We are passionate about travel and dedicated to helping you create lifelong memories.</p>
+      <p>Welcome to Your <span>WorldTravel</span>, your ultimate guide to unforgettable adventures around the world. We are passionate about travel and dedicated to helping you create lifelong memories.</p>
       
       <p>At Your Travel Companion, we believe that traveling opens up new horizons, broadens our perspectives, and connects us with people and cultures from all walks of life. Our mission is to inspire and empower you to embark on remarkable journeys, whether you're a seasoned globetrotter or a first-time explorer.</p>
       

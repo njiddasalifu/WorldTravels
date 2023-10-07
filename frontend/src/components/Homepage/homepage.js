@@ -9,6 +9,7 @@
     function Homepage() {
       return (
         <Layout>
+          <div className='home'>
           <section className="hero">
             <div className="hero-content">
               <h2 className="hero-title">Travel the world and see the beauty of Nature.</h2>
@@ -36,6 +37,7 @@
               <img src={me3} alt="Nature" />
             </div>
           </section>
+          </div>
         </Layout>
       );
     }

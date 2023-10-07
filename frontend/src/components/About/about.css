@@ -1,9 +1,13 @@
 /* Add these CSS styles to your component or external CSS file */
 
-.about-page {
+.about {
     padding: 2rem;
+    margin: 20px;
     background-color: #F5F5F5;
     border-radius: 8px;
+  }
+  p span {
+    color: #6df061;
   }
   
   .logo {
