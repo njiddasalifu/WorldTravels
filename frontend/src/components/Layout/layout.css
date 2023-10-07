@@ -1,4 +1,4 @@
-/* header section */
+/* header section
 .header {
     display: flex;
     justify-content: space-between;
@@ -8,7 +8,7 @@
     left: 0;
     right: 0;
     top: 0;
-    background-color: #2081d5eb;
+    background-color: #202cd5eb;
     padding: 10px;
   }
   
@@ -30,7 +30,7 @@
     color: #333;
   }
 
-  /* footer section */
+  
 .footer {
     text-align: center;
     background-color: #202cd5eb;
@@ -43,4 +43,4 @@
   }
   .footer span {
     color: #6df061;
-  }
+  } */

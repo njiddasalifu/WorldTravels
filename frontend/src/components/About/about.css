@@ -1,0 +1,21 @@
+/* Add these CSS styles to your component or external CSS file */
+
+.about-page {
+    padding: 2rem;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+  }
+  
+  .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FF9800;
+    margin-bottom: 2rem;
+  }
+  
+  h1, p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 1.2rem;
+  }

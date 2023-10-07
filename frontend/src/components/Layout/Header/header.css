@@ -7,8 +7,11 @@
     left: 0;
     right: 0;
     top: 0;
-    background-color: #2081d5eb;
+    background-color: #202cd5eb;
     padding: 10px;
+  }
+  .navbar {
+    background-color: #202cd5eb;
   }
   
   .logo {
