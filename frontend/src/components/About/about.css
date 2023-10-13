@@ -5,6 +5,7 @@
     margin: 20px;
     background-color: #F5F5F5;
     border-radius: 8px;
+    justify-content: center;
   }
   p span {
     color: #6df061;
